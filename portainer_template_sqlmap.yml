@@ -1,0 +1,20 @@
+[
+  {
+    "type":        "container",
+    "name":        "sqlmap",
+    "title":       "sqlmap",
+    "description": "Automatic SQL injection and database takeover tool",
+    "note":        "Auto generated Portainer template <br>Source https://github.com/sqlmapproject/sqlmap.git",
+    "categories":  ["offensive"],
+    "platform":    "linux",
+    "network":     "haknet",
+    "logo":        "https://i.imgur.com/ZOuTP9V.png",
+    "image":       "battlecl0ud/sqlmap:latest",
+    "ports":       [],
+    "env":         [ {
+      "name":      "USER_INPUT",
+      "label":     "Arguments"
+        }
+    ]
+  }
+]
