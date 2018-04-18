@@ -9,6 +9,6 @@ then
       
 else
       
-      python sqlmap $USER_INPUT
+      python sqlmap.py $USER_INPUT
       
 fi
